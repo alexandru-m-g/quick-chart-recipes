@@ -3,8 +3,8 @@
   "title": "Test",
   "type": "cookbook",
   "columns": [
-    "#indicator",
-	"#date",
+        "#indicator+actual",
+	"#date+start",
 	"#activity"
   ],
   "recipes": [
