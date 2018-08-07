@@ -3,7 +3,7 @@
   "title": "Test",
   "type": "cookbook",
   "columns": [
-        "#indicator+actual",
+        "#indicator",
 	"#date",
 	"#activity"
   ],
@@ -20,7 +20,7 @@
           "#activity"
         ],
         "valueColumns": [
-          "#indicator+actual"
+          "#indicator"
         ]
       }
     }
