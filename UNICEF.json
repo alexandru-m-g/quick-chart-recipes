@@ -16,8 +16,13 @@
         "aggregateFunctions": [
           "sum"
         ],
+	"filtersWith": [
+          {
+            "#activity+name": "Maintenance of sustainable water systems"
+          }
+        ],
         "aggregateColumns": [
-          "#activity+name"
+          "#date+start"
         ],
         "valueColumns": [
           "#indicator+actual"
