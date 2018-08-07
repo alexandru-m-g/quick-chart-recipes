@@ -1,0 +1,28 @@
+{
+  "name": "Test",
+  "title": "Test",
+  "type": "cookbook",
+  "columns": [
+    "#indicator",
+	"#date",
+	"#activity"
+  ],
+  "recipes": [
+    {
+      "name": "Charts: Distinct count of values in value column by the aggregate column",
+      "description": "",
+      "type": "chart",
+      "ingredients": {
+        "aggregateFunctions": [
+          "sum"
+        ],
+        "aggregateColumns": [
+          "#activity"
+        ],
+        "valueColumns": [
+          "#indicator"
+        ]
+      }
+    }
+  ]
+}
