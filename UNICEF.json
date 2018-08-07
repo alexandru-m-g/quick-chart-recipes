@@ -5,7 +5,7 @@
   "columns": [
         "#indicator+actual",
 	"#date+start",
-	"#activity"
+	"#activity+name"
   ],
   "recipes": [
     {
@@ -17,7 +17,7 @@
           "sum"
         ],
         "aggregateColumns": [
-          "#activity"
+          "#activity+name"
         ],
         "valueColumns": [
           "#indicator+actual"
