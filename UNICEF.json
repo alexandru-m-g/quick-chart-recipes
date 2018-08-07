@@ -20,7 +20,7 @@
           "#activity"
         ],
         "valueColumns": [
-          "#indicator"
+          "#indicator+actual"
         ]
       }
     }
