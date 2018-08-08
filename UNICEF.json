@@ -18,11 +18,11 @@
         ],
 	"filtersWith": [
           {
-            "#activity+name": "Maintenance of sustainable water systems"
+            "#date+start-activity": "$MAX$"
           }
         ],
         "aggregateColumns": [
-          "#date+start"
+          "#activity+name"
         ],
         "valueColumns": [
           "#indicator+actual"
